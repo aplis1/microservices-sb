@@ -9,7 +9,7 @@
 		<version>3.3.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.eazybytes</groupId>
+	<groupId>com.msbytes</groupId>
 	<artifactId>cards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
