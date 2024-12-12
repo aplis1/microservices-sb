@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+build:
+  version: "2.0"
+
+cards:
+  message: "ABC Bank accounts related local APIs"
+  contactDetails:
+    name: "Cards QA - Developer"
+    email: "johnqa@abcbank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-6758

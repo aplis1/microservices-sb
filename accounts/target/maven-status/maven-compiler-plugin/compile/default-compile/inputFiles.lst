@@ -2,6 +2,7 @@
 /Users/silpaaleti/Desktop/Development/microservicesspring/accounts/src/main/java/com/eazybytes/accounts/audit/AuditAwareImpl.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/accounts/src/main/java/com/eazybytes/accounts/constants/AccountsConstants.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/accounts/src/main/java/com/eazybytes/accounts/controller/AccountsController.java
+/Users/silpaaleti/Desktop/Development/microservicesspring/accounts/src/main/java/com/eazybytes/accounts/dto/AccountsContactInfoDto.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/accounts/src/main/java/com/eazybytes/accounts/dto/AccountsDto.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/accounts/src/main/java/com/eazybytes/accounts/dto/CustomerDto.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/accounts/src/main/java/com/eazybytes/accounts/dto/ErrorResponseDto.java

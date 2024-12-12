@@ -3,6 +3,7 @@
 /Users/silpaaleti/Desktop/Development/microservicesspring/loans/src/main/java/com/eazybytes/loans/constants/LoansConstants.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/loans/src/main/java/com/eazybytes/loans/controller/LoansController.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/loans/src/main/java/com/eazybytes/loans/dto/ErrorResponseDto.java
+/Users/silpaaleti/Desktop/Development/microservicesspring/loans/src/main/java/com/eazybytes/loans/dto/LoansContactInfo.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/loans/src/main/java/com/eazybytes/loans/dto/LoansDto.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/loans/src/main/java/com/eazybytes/loans/dto/ResponseDto.java
 /Users/silpaaleti/Desktop/Development/microservicesspring/loans/src/main/java/com/eazybytes/loans/entity/BaseEntity.java

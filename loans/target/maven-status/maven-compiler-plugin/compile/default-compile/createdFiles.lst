@@ -11,6 +11,7 @@ com/eazybytes/loans/constants/LoansConstants.class
 com/eazybytes/loans/dto/ErrorResponseDto.class
 com/eazybytes/loans/entity/BaseEntity.class
 com/eazybytes/loans/service/impl/LoansServiceImpl.class
+com/eazybytes/loans/dto/LoansContactInfo.class
 com/eazybytes/loans/service/ILoansService.class
 com/eazybytes/loans/dto/LoansDto.class
 com/eazybytes/loans/mapper/LoansMapper.class
