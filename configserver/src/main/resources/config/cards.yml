@@ -5,7 +5,7 @@ spring:
     name: "accounts"
   profiles:
     active: "qa"
-accounts:
+cards:
   message: "ABC Bank cards related local APIs"
   contactDetails:
     name: "Cards Developer - Developer"

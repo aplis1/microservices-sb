@@ -1,0 +1,5 @@
+../.idea/
+configserver.iml
+target/
+../loans/loans.iml
+.gitignore
