@@ -15,5 +15,9 @@ spring:
           default-label: develop
           time-out: 5
           clone-on-start: true
+          force-pull: true
+encrypt:
+  key: 2654534564657889
+
 server:
   port: 8071
