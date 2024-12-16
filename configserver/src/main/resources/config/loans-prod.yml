@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "1.0"
+
+loans:
+  message: "ABC Bank loans related local APIs"
+  contactDetails:
+    name: "Loans Prod - Developer"
+    email: "loansprod@abcbank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-6758

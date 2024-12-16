@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "1.0"
+
+cards:
+  message: "ABC Bank cards related local APIs"
+  contactDetails:
+    name: "Cards Prod - Developer"
+    email: "cardsprod@abcbank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-6758
