@@ -2,7 +2,7 @@ build:
   version: "3.0"
 spring:
   application:
-    name: "accounts"
+    name: "cards"
   profiles:
     active: "qa"
 cards:

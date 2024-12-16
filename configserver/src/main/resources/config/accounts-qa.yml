@@ -4,7 +4,7 @@ build:
 accounts:
   message: "Welcome to ABCBank accounts related QA APIs "
   contactDetails:
-    name: "Smitha Ray - QA Lead"
+    name: "Accounts QA - QA Lead"
     email: "smitha@msbytes.com"
   onCallSupport:
     - (666) 265-3765

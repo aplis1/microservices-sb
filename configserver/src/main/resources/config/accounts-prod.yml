@@ -4,7 +4,7 @@ build:
 accounts:
   message: "Welcome to ABCBank accounts related prod APIs "
   contactDetails:
-    name: "Reine Aishwarya - Product Owner"
+    name: "Accounts Prod- Product Owner"
     email: "aishwarya@msbytes.com"
   onCallSupport:
     - (453) 392-4829

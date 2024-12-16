@@ -2,12 +2,18 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+    # active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-          search-locations: "classpath:/config"
+        # native:
+          #search-locations: "classpath:/config"
           # search-locations: "file:///Users//silpaaleti//Downloads//msbytes//config"
+        git:
+          uri: https://github.com/aplis1/msbytes-config.git
+          default-label: develop
+          time-out: 5
+          clone-on-start: true
 server:
   port: 8071
