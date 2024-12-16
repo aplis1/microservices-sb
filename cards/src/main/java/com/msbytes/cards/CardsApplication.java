@@ -23,8 +23,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 				description = "EazyBank Cards microservice REST API Documentation",
 				version = "v1",
 				contact = @Contact(
-						name = "Madan Reddy",
-						email = "tutor@msbytes.com",
 						url = "https://www.msbytes.com"
 				),
 				license = @License(
@@ -33,7 +31,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 				)
 		),
 		externalDocs = @ExternalDocumentation(
-				description = "EazyBank Cards microservice REST API Documentation",
+				description = "ABC Bank Cards microservice REST API Documentation",
 				url = "https://www.msbytes.com/swagger-ui.html"
 		)
 )
