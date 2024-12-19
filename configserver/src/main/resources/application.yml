@@ -4,14 +4,20 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
-    #active: git
+    #active: native
+    active: git
   cloud:
     config:
       server:
         native:
           # search-locations: "classpath:/config"
-          search-locations: "file:///Users//silpaaleti//Downloads//msbytes//config"
+          # search-locations: "file:///Users//silpaaleti//Downloads//msbytes//config"
+        git:
+          uri: https://github.com/aplis1/msbytes-config.git
+          default-label: develop
+          time-out: 5
+          clone-on-start: true
+          force-pull: true
       rabbitmq:
         host: "localhost"
         port: 5672
