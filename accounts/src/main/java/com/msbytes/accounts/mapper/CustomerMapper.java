@@ -1,5 +1,6 @@
 package com.msbytes.accounts.mapper;
 
+import com.msbytes.accounts.dto.CustomerDetailsDto;
 import com.msbytes.accounts.dto.CustomerDto;
 import com.msbytes.accounts.entity.Customer;
 
@@ -12,6 +13,12 @@ public class CustomerMapper {
         return customerDto;
     }
 
+    public static CustomerDetailsDto mapToCustomerDetailsDto(Customer customer, CustomerDetailsDto customerDetailsDto) {
+        customerDetailsDto.setName(customer.getName());
+        customerDetailsDto.setEmail(customer.getEmail());
+        customerDetailsDto.setMobileNumber(customer.getMobileNumber());
+        return customerDetailsDto;
+    }
     public static Customer mapToCustomer(CustomerDto customerDto, Customer customer) {
         customer.setName(customerDto.getName());
         customer.setEmail(customerDto.getEmail());
