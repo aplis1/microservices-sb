@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: "gatewayserver"
+  config:
+    import: "optional:configserver:http://localhost:8071"
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+          lowerCaseServiceId: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    gateway:
+      enabled: true
+  info:
+    env:
+      enabled: true
+info:
+  app:
+    name: "gatewayserver"
+    description: "Abc Bank Gateway Application"
+    version: "1.0.0"
+
+logging:
+  level:
+    com:
+      msbytes:
+        gatewayserver: DEBUG
