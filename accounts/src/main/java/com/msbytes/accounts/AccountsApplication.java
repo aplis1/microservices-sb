@@ -22,7 +22,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @OpenAPIDefinition(
 		info = @Info(
 				title = "Accounts microservice REST API Documentation",
-				description = "EazyBank Accounts microservice REST API Documentation",
+				description = "abcbank Accounts microservice REST API Documentation",
 				version = "v1",
 				contact = @Contact(
 						name = "Sil Ale",
