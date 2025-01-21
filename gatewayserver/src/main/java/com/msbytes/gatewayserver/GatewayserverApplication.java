@@ -41,7 +41,7 @@ public class GatewayserverApplication {
 				.route(p -> p.path("/abcbank/cards/**")
 						.filters(f -> f.rewritePath("/abcbank/cards/(?<segment>.*)", "/${segment}")
 								.addResponseHeader("X-Response-time", LocalDateTime.now().toString()))
-						.uri("lb://LOANS"))
+						.uri("lb://CARDS"))
 				.build();
 
 	}
