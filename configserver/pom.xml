@@ -71,7 +71,7 @@
 				<version>3.4.4</version>
 				<configuration>
 					<to>
-						<image>silale18/${project.artifactId}:v4</image>
+						<image>silale18/${project.artifactId}:v5</image>
 					</to>
 				</configuration>
 			</plugin>
