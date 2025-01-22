@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/gatewayserver/gatewayserver.iml" filepath="$PROJECT_DIR$/gatewayserver/gatewayserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/loans/loans.iml" filepath="$PROJECT_DIR$/loans/loans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/microservices-sb.iml" filepath="$PROJECT_DIR$/.idea/microservices-sb.iml" />
     </modules>
   </component>
